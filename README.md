@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # eKart E-Commerce Application
 
 A modern, responsive e-commerce web application built with React, featuring Clerk authentication and Stripe payment processing. This project showcases a full-featured online shopping experience with multiple product categories, cart functionality, and secure checkout.
+=======
+# Tushar Rohilla's E-Commerce Application
+
+A modern, responsive e-commerce web application built with React. This project showcases a full-featured online shopping experience with multiple product categories, cart functionality, and a clean, intuitive user interface.
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 
 ## 🚀 Live Demo
 [Add your deployed app link here]
@@ -9,6 +15,7 @@ A modern, responsive e-commerce web application built with React, featuring Cler
 
 - **Multi-Category Shopping**: Browse products across 7 categories (Electronics, Clothing, Sports, Books, Groceries, Furniture, Gift Cards)
 - **Shopping Cart**: Add items to cart with real-time updates and quantity tracking
+<<<<<<< HEAD
 - **Secure Authentication**: User authentication powered by Clerk
 - **Payment Processing**: Secure payments with Stripe integration
 - **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
@@ -73,6 +80,22 @@ npm start
 - **Styling**: CSS
 
 ## ️ Tech Stack
+=======
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+- **Category Navigation**: Easy switching between product categories
+- **Product Management**: Individual product pages with detailed information
+- **Clean UI/UX**: Modern, intuitive interface inspired by popular e-commerce platforms
+- **Search Functionality**: Header search bar for finding products
+- **User Authentication**: Login/Sign-in system integration ready
+
+## 👨‍💻 Author
+
+**Tushar Rohilla**
+- [GitHub](https://github.com/tusharrohilla11)
+- [LinkedIn](https://linkedin.com/in/tushar-rohilla)
+
+## 🛠️ Tech Stack
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 
 ### Frontend
 - **React 18.2.0** - Frontend library for building user interfaces
@@ -80,22 +103,28 @@ npm start
 - **CSS3** - Styling and responsive design
 - **JavaScript (ES6+)** - Programming language
 
+<<<<<<< HEAD
 ### Authentication & Payments
 - **Clerk** - User authentication and session management
 - **Stripe** - Secure payment processing
 - **@stripe/stripe-js** - Stripe JavaScript SDK
 - **@stripe/react-stripe-js** - React components for Stripe
 
+=======
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 ### State Management
 - **React Context API** - Global state management for cart functionality
 - **React Hooks** - useState, useEffect, useContext for component state
 
+<<<<<<< HEAD
 ## 👨‍💻 Author
 
 **Tushar Rohilla**
 - [GitHub](https://github.com/tusharrohilla11)
 - [LinkedIn](https://linkedin.com/in/tusharrohilla11)
 
+=======
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 ### Development Tools
 - **Create React App** - Development environment and build tool
 - **React Scripts 5.0.1** - Build scripts and development server
@@ -153,6 +182,7 @@ e-commerce/
    npm install
    ```
 
+<<<<<<< HEAD
 3. **Set up environment variables**
    ```bash
    # Copy the environment template
@@ -164,11 +194,18 @@ e-commerce/
    ```
 
 4. **Start the development server**
+=======
+3. **Start the development server**
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
    ```bash
    npm start
    ```
 
+<<<<<<< HEAD
 5. **Open in browser**
+=======
+4. **Open in browser**
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
    ```
    http://localhost:3000
    ```
@@ -182,7 +219,11 @@ npx create-react-app e-commerce-app
 cd e-commerce-app
 
 # Install additional dependencies
+<<<<<<< HEAD
 npm install react-router-dom @clerk/clerk-react @stripe/stripe-js @stripe/react-stripe-js
+=======
+npm install react-router-dom
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 ```
 
 ### Step 2: Project Structure Setup
@@ -306,8 +347,13 @@ npm run build
 
 ## 🔮 Future Enhancements
 
+<<<<<<< HEAD
 - [x] User authentication and profiles ✅ (Implemented with Clerk)
 - [x] Payment integration ✅ (Implemented with Stripe)
+=======
+- [ ] User authentication and profiles
+- [ ] Payment integration
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 - [ ] Product search and filters
 - [ ] Product reviews and ratings
 - [ ] Wishlist functionality
@@ -316,9 +362,12 @@ npm run build
 - [ ] Database integration (MongoDB/Firebase)
 - [ ] API integration for dynamic product data
 - [ ] Mobile app version
+<<<<<<< HEAD
 - [ ] Email notifications for orders
 - [ ] Multi-language support
 - [ ] Advanced analytics dashboard
+=======
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 
 ## 🤝 Contributing
 

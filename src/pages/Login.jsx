@@ -1,10 +1,14 @@
 import React from 'react'
+<<<<<<< HEAD
 import { SignIn, SignedIn, SignedOut } from '@clerk/clerk-react';
+=======
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 import Header from '../components/Header/Header';
 
 function Login() {
   return (
     <div>
+<<<<<<< HEAD
         <SignedOut>
           <div style={{
             display: 'flex', 
@@ -29,6 +33,9 @@ function Login() {
             <p>You are successfully signed in.</p>
           </div>
         </SignedIn>
+=======
+        <h1>Login</h1>
+>>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
     </div>
   )
 }
