@@ -1,24 +1,15 @@
-<<<<<<< HEAD
 import React ,{useContext, useState} from 'react'
 import {CartContext} from "../components/Context/Cart"
 import StripeCheckout from "../components/StripeCheckout"
 import { SignedIn, SignedOut, SignInButton } from '@clerk/clerk-react'
-=======
-import React ,{useContext} from 'react'
-import {CartContext} from "../components/Context/Cart"
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 import "./CheckoutCard.css" 
 import {Link} from "react-router-dom"
 
 function Checkout() {
 
-<<<<<<< HEAD
   const cart = useContext(CartContext)
   const [showPayment, setShowPayment] = useState(false)
   const totalAmount = cart.items.reduce((a,b)=>a+b.price,0)
-=======
-  const cart =useContext(CartContext)
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 
   function remove_btn(id){
     const newupdatedItems =cart.items.filter((taskname,i)=>{
@@ -27,14 +18,11 @@ function Checkout() {
     cart.setItems(newupdatedItems);
   }
 
-<<<<<<< HEAD
   const handlePaymentSuccess = () => {
     cart.setItems([]) // Clear cart after successful payment
     setShowPayment(false)
   }
 
-=======
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
   return (
     <div className='checkout'>
       <div className='op'>
@@ -51,15 +39,9 @@ function Checkout() {
                fontSize:"20px"}}>Go Shopping</Link> </h1>:
 
              cart.items.map((item,id) => (
-<<<<<<< HEAD
               <div className='img_content' key={id}>
 
                <img className="img_size" src={item.img} alt='hh'></img>
-=======
-              <div className='img_content'>
-
-               <img key={id} className="img_size" src={item.img} alt='hh'></img>
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
                <div className='content_content'>
                <h1  className='title'>{item.title}   </h1>
                <h1  className='title'>Price : ₹{item.price}   </h1>
@@ -77,7 +59,6 @@ function Checkout() {
        }           </div>
  
     <div className='proceed_checkout'>
-<<<<<<< HEAD
      <h2>Total : ₹{totalAmount}</h2>
      
      <SignedOut>
@@ -123,10 +104,6 @@ function Checkout() {
          </div>
        )}
      </SignedIn>
-=======
-     <h2>Total : ₹{cart.items.reduce((a,b)=>a+b.price,0)}</h2>
-     <button className='remove_btn' >Proceed to checkout</button>
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
      </div>
     </div>
   )

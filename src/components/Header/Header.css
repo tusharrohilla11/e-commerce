@@ -14,18 +14,11 @@
 }
 
 .header_logo{
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     margin: 20px;
     margin-top: 5px;
     text-decoration: none;
-=======
-    width: 200px;
-    margin: 20px;
-    margin-top: 5px;
-    
->>>>>>> 2a07bbc6fae09d0b4fb4e7954bac7b4299f6deb4
 }
 .header_search-box{
     margin:0px 0px 0px 0px;
